@@ -1,5 +1,0 @@
-name: TestModule
-version: ${version}
-author: michaelkrauty
-main: me.michaelkrauty.TestModule.Main
-depend: [CarbonCore]

@@ -8,15 +8,8 @@
     <artifactId>Carbon</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>TestModule</module>
-    </modules>
 
     <repositories>
-        <repository>
-            <id>dvps-repo</id>
-            <url>http://dominationvps.com:8080/plugin/repository/everything</url>
-        </repository>
         <repository>
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public/</url>
@@ -39,12 +32,5 @@
             <version>1.4.1</version>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>dvps-repo</id>
-            <url>http://dominationvps.com:8080/plugin/repository/everything</url>
-        </repository>
-    </distributionManagement>
 
 </project>
