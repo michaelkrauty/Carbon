@@ -14,10 +14,6 @@
 
     <repositories>
         <repository>
-            <id>dvps-repo</id>
-            <url>http://dominationvps.com:8080/plugin/repository</url>
-        </repository>
-        <repository>
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
