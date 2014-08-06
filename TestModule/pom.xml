@@ -11,6 +11,13 @@
 
     <artifactId>TestModule</artifactId>
 
+    <repositories>
+        <repository>
+            <id>dvps-repo</id>
+            <url>http://dominationvps.com:8080/plugin/repository/everything/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>me.michaelkrauty</groupId>
