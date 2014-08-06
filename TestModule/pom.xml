@@ -26,4 +26,11 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>dvps-repo</id>
+            <url>http://dominationvps.com:8080/plugin/repository</url>
+        </repository>
+    </distributionManagement>
+
 </project>
