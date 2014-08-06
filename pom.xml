@@ -15,7 +15,7 @@
     <repositories>
         <repository>
             <id>dvps-repo</id>
-            <url>http://dominationvps.com:8080/plugin/repository</url>
+            <url>http://dominationvps.com:8080/plugin/repository/everything</url>
         </repository>
         <repository>
             <id>bukkit-repo</id>
@@ -43,7 +43,6 @@
     <distributionManagement>
         <repository>
             <id>dvps-repo</id>
-            <url>http://dominationvps.com:8080/plugin/repository/everything</url>
         </repository>
     </distributionManagement>
 
