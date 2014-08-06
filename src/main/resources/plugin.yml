@@ -1,0 +1,4 @@
+name: CarbonCore
+version: ${version}
+author: michaelkrauty
+main: me.michaelkrauty.CarbonCore.CarbonCore
