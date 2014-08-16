@@ -1,6 +1,8 @@
 package me.michaelkrauty.CarbonCore;
 
+import me.michaelkrauty.CarbonCore.listeners.PlayerListener;
 import me.michaelkrauty.CarbonCore.objects.User;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Zombie;
 import org.bukkit.inventory.Inventory;
@@ -34,6 +36,7 @@ public class CarbonCore extends JavaPlugin {
 		for (Player player : getServer().getOnlinePlayers()) {
 			users.put(player, new User(this, player));
 		}
+		Bukkit.getPluginManager().registerEvents(new PlayerListener(this), this);
 	}
 
 	public void onDisable() {
